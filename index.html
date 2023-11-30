@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learn HTML & CSS</title>
     <style>
+      h1,
+      h2,
+      h3 {
+        font-size: 100px;
+        background-color: aquamarine;
+      }
       p {
         /* color: grey; */
         /* color: rgb(23, 123, 100); */
@@ -14,15 +20,39 @@
         /* font-size: 20pt; */
         font-size: 30px;
       }
+      #heading {
+        color: blueviolet;
+        font-size: 50px;
+      }
+      .green-text {
+        color: green;
+      }
+      .pink-text {
+        color: pink;
+      }
+      .font-size-large {
+        /* font-size: 90px; */
+      }
     </style>
   </head>
   <body>
+    <h1 class="green-text pink-text">Heading</h1>
     <!-- ctrl+/ -->
-    <p>
+    <p style="color: red">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae nemo
-      unde facilis voluptates quibusdam? Illum, facere molestiae? Dolores,
-      maiores nobis? Corporis recusandae animi, sint neque quo earum ratione
+      unde
+      <span class="green-text font-size-large"
+        >facilis voluptates quibusdam? Illum, facere molestiae? Dolores</span
+      >, maiores nobis? Corporis recusandae animi, sint neque quo earum ratione
       amet qui.
     </p>
+    <article>
+      <h2 id="heading">Headline</h2>
+      <h2 id="heading">Headline <span class="green-text">228</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
+        laboriosam.
+      </p>
+    </article>
   </body>
 </html>
