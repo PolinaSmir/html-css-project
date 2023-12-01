@@ -1,55 +1,16 @@
-@font-face {
-  font-family: "Smooch";
-  src: url(./fonts/Smooch-Regular.ttf);
-}
-h1,
-h2,
-h3 {
-  font-size: 100px;
-  background-color: aquamarine;
-  font-family: "Smooch";
-}
-body {
-  font-size: 20px;
-}
-p {
-  color: #ab4324;
-  line-height: 2em;
-  text-align: right;
-  font-family: "Merriweather", serif;
-}
-#heading {
-  color: blueviolet;
-  font-size: 50px;
-}
-.green-text {
+.main-article {
+  font-size: 60px;
   color: green;
+  border: 5px solid red;
 }
-.pink-text {
-  color: pink;
+.article-content {
+  border: inherit;
 }
-.font-size-large {
-  /* font-size: 90px; */
-}
-#btn1 {
-  text-transform: uppercase;
-}
-#btn2 {
-  text-transform: lowercase;
-}
-a {
+.article-link {
+  color: inherit;
   text-decoration: none;
-  color: rgb(46, 44, 44);
-  font-weight: bold;
 }
-
-/* 
-font-size - rozmer shrifta
-color - wdtn
-background-color
-line-height - vysota linii
-text-transform - privedenie k kakomu nibud registru
-text-decoration - upravlenie liniami pod text
-
-
-*/
+.article-header {
+  color: darkgoldenrod;
+  text-align: center;
+}
