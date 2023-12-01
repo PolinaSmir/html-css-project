@@ -1,8 +1,13 @@
+@font-face {
+  font-family: "Smooch";
+  src: url(./fonts/Smooch-Regular.ttf);
+}
 h1,
 h2,
 h3 {
   font-size: 100px;
   background-color: aquamarine;
+  font-family: "Smooch";
 }
 body {
   font-size: 20px;
@@ -11,6 +16,7 @@ p {
   color: #ab4324;
   line-height: 2em;
   text-align: right;
+  font-family: "Merriweather", serif;
 }
 #heading {
   color: blueviolet;
