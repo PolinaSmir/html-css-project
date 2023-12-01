@@ -4,9 +4,13 @@ h3 {
   font-size: 100px;
   background-color: aquamarine;
 }
+body {
+  font-size: 20px;
+}
 p {
   color: #ab4324;
-  font-size: 30px;
+  line-height: 2em;
+  text-align: right;
 }
 #heading {
   color: blueviolet;
@@ -21,3 +25,25 @@ p {
 .font-size-large {
   /* font-size: 90px; */
 }
+#btn1 {
+  text-transform: uppercase;
+}
+#btn2 {
+  text-transform: lowercase;
+}
+a {
+  text-decoration: none;
+  color: rgb(46, 44, 44);
+  font-weight: bold;
+}
+
+/* 
+font-size - rozmer shrifta
+color - wdtn
+background-color
+line-height - vysota linii
+text-transform - privedenie k kakomu nibud registru
+text-decoration - upravlenie liniami pod text
+
+
+*/
