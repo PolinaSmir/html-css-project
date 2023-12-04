@@ -1,10 +1,17 @@
-.image {
+/* .image {
   width: 300px;
   border: 3px solid salmon;
   box-sizing: border-box;
   padding: 10px;
   margin-left: 60px;
-}
+} */
 div {
   display: inline;
+}
+img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 0px;
 }
