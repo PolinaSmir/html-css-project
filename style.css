@@ -1,7 +1,12 @@
 .image {
   width: 300px;
-  /* height: 300px; */
   border: 3px solid salmon;
   box-sizing: border-box;
+  padding: 10px;
+  margin-left: 60px;
 }
 /* width = content + paddings + boeders*/
+/* padding: top right bottom left */
+/* padding: top left-right bottom */
+/* padding: top-bottom left-right */
+/* padding: all (top-right-bottom-left)*/
