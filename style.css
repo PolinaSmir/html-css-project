@@ -1,16 +1,7 @@
-.main-article {
-  font-size: 60px;
-  color: green;
-  border: 5px solid red;
+.image {
+  width: 300px;
+  /* height: 300px; */
+  border: 3px solid salmon;
+  box-sizing: border-box;
 }
-.article-content {
-  border: inherit;
-}
-.article-link {
-  color: inherit;
-  text-decoration: none;
-}
-.article-header {
-  color: darkgoldenrod;
-  text-align: center;
-}
+/* width = content + paddings + boeders*/
